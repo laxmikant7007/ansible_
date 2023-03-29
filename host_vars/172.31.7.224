@@ -1,1 +1,1 @@
-myjavainstallonredhat : openjdk-8-jre
+myjavainstallonredhat : java-1.8.0-openjdk
