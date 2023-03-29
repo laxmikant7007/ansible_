@@ -10,7 +10,7 @@
         when: ansible_os_family=="Debian"
 
       - name: i want to install java 8 on RedHat server
-        apt:
+        yum:
               name: "{{myjavainstallonRedHat}}"
               state: present 
 
