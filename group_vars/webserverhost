@@ -1,0 +1,6 @@
+--- 
+
+mywebserveronubuntu : apache2
+mywebserveronredhat : httpd
+myjavainstallonubuntu : openjdk-8-jre
+myjavainstallonredhat : java-1.7.0-openjdk
