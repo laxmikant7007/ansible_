@@ -1,2 +1,2 @@
 ---
-myjavainstallonredhat : java-1.7.0-openjdk
+myjavainstallonredhat : openjdk-11-jdk
