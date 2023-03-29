@@ -9,9 +9,9 @@
 
         when: ansible_os_family=="Debian"
 
-      - name: i want to install java 8 on Redhat server
+      - name: i want to install java 7 on Redhat server
         yum:
-              name: java-1.8.0-openjdk
+              name: java-1.7.0-openjdk
               state: present
 
         when: ansible_os_family=="RedHat"      
