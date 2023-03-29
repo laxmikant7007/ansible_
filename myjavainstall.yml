@@ -12,7 +12,7 @@
       - name: i want to install java 7 on Redhat server
         yum:
               name: java-1.7.0-openjdk
-              state: present
+              state: latest
 
         when: ansible_os_family=="RedHat"      
               
