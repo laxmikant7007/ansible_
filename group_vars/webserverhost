@@ -3,4 +3,4 @@
 mywebserveronubuntu : apache2
 mywebserveronredhat : httpd
 myjavainstallonubuntu : openjdk-8-jre
-myjavainstallonredhat : openjdk-11-jdk
+myjavainstallonredhat : openjdk-8-jre
