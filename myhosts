@@ -6,3 +6,6 @@
 172.31.10.77
 172.31.10.17
 
+[webserverhost:vars]
+mywebserveronubuntu = apache2
+mywebserveronredhat = httpd
