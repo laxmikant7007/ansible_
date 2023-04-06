@@ -4,6 +4,6 @@
   tasks: 
       - name: i want to create file
         file:
-          path: /home/maha/myf1.txt
+          path: /home/maha/myf1.txt | echo "file" >> myf1.txt
           state: touch
 
