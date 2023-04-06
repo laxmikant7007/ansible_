@@ -3,7 +3,7 @@
   become: yes
   tasks: 
       - name: i want to create file
-        files:
+        file:
           path: /home/maha/myf1.txt
           state: touch
 
