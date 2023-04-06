@@ -7,3 +7,7 @@
           path: /home/ubuntu/myf1.txt | echo "file" >> myf1.txt
           state: touch
 
+      - name: i want to install webserver
+        apt: 
+            name: apache2
+            state: present   
