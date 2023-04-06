@@ -2,10 +2,7 @@
 - hosts: 172.31.10.76
   become: yes
   tasks: 
-      - name: i want to create file
-        file:
-          path: /home/ubuntu/myf1.txt | echo "file" >> myf1.txt
-          state: touch
+      - include_tasks: myfile.yml
 
       - name: i want to install webserver
         apt: 
